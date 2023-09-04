@@ -45,6 +45,6 @@
 	border-radius: 50%;
 }
 
-.radio__real:focus + .radio__custom {
+.radio__real:checked + .radio__custom {
 	border: 5px solid rgba(0, 0, 255,0.5);
 }
