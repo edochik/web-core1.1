@@ -13,6 +13,7 @@
 .input__window:focus{
 	border-left: 1px solid blue;
 }
+
 .input__placeholder {
 	position: absolute;
 	content: '';

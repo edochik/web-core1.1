@@ -3,7 +3,11 @@
 	cursor: pointer;
 }
 
-.radio::after {
+.radio__text {
+	position: relative;
+}
+
+.radio__text::after {
 	position: absolute;
 	display: inline-block;
 	content: 'i';
@@ -45,6 +49,30 @@
 	border-radius: 50%;
 }
 
-.radio__real:checked + .radio__custom {
-	border: 5px solid rgba(0, 0, 255,0.5);
+.radio__real:checked+.radio__custom {
+	border: 5px solid rgba(0, 0, 255, 0.5);
+}
+
+.radio__real:focus+.radio__custom {
+
+	border: 5px solid rgb(0, 0, 0);
+}
+
+@media(max-width:680px) {
+	.radio:nth-child(1) {
+		grid-area: Individual;
+	}
+
+	.radio:nth-child(2) {
+		grid-area: Business;
+	}
+
+	.radio:nth-child(3) {
+		grid-area: Ira;
+	}
+
+	.radio:nth-child(4) {
+		grid-area: Trust;
+	}
+
 }

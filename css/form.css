@@ -47,7 +47,12 @@
 
 
 @media(max-width:680px) {
-
+	.form__radios{
+		display: grid;
+		grid-template-areas:
+		"Individual Business"
+		"Ira Trust"
+	}
 	.form__inputs,
 	.form__text,
 	.form__radios,
