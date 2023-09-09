@@ -1,0 +1,9 @@
+.logo {
+	position: absolute;
+	content: '';
+	top: 25px;
+	left: 50px;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+}

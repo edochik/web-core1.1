@@ -1,6 +1,8 @@
+@import './font_face.css';
 @import './normalize.css';
 @import './style.css';
 @import './registration.css';
+@import './logo.css';
 @import './social.css';
 @import './form.css';
 @import './input.css';
