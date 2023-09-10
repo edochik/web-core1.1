@@ -1,0 +1,14 @@
+.reset-style__link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.reset-style__text {
+	margin: 0;
+}
+
+.reset-style__fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
